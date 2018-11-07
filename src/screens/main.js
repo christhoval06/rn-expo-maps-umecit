@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
+
+import styles from '../styles';
 
 export default class Main extends Component {
 	render() {
@@ -12,18 +14,3 @@ export default class Main extends Component {
 		);
 	}
 }
-
-const styles = StyleSheet.create({
-	container: {
-		flex          : 1,
-		alignItems    : 'center',
-		justifyContent: 'center',
-	},
-	text     : {
-		color: 'black',
-	},
-	bold     : {
-		fontWeight: '900',
-		fontSize  : 30,
-	}
-});
