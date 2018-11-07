@@ -4,10 +4,13 @@ import HomeScreen from '../screens/home';
 import MainScreen from '../screens/main';
 
 export default createStackNavigator({
-	'/home': {
-		screen: HomeScreen
+		'/home': {
+			screen: HomeScreen
+		},
+		'/main': {
+			screen: MainScreen
+		},
 	},
-	'/main': {
-		screen: MainScreen
-	},
-});
+	{
+		initialRouteName: '/home',
+	});
