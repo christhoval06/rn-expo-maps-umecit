@@ -12,5 +12,10 @@ export default StyleSheet.create({
 	bold     : {
 		fontWeight: '900',
 		fontSize  : 30,
+	},
+	photo    : {
+		width       : 180,
+		height      : 180,
+		borderRadius: 180 / 2,
 	}
 });

@@ -12,7 +12,7 @@ export default class Home extends Component {
 				<Text style={styles.text}>Screen</Text>
 
 				<Button
-					onPress={() => navigation.navigate('/main')}
+					onPress={() => navigation.navigate('/main', {name: 'Christhoval'})}
 					title="Go to Main"/>
 			</View>
 		);
