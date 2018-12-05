@@ -21,4 +21,14 @@
 ## Dependencies
 
 * `npm install --save react-navigation`
+
+
+# Instagram clone App
+ create a instagram clone UI App
+
+
+
+# steps
+using base app
 * `npm install --save @expo/vector-icons`
+* create a new file `instagram.js` in screens dir
